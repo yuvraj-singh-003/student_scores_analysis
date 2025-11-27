@@ -1,6 +1,6 @@
 # Student Result Analysis
 
-This project analyzes student performance across **Math**, **Reading**, and **Writing** using Python, Jupyter Notebook, and data visualizations. It also includes automatically generated **PDF**, **DOCX**, and **PPTX** reports summarizing key insights.
+This project analyzes student performance across **Math**, **Reading**, and **Writing** using Python, Jupyter Notebook, and data visualizations. It also includes **PDF**, **DOCX**, and **PPTX** reports summarizing key insights.
 
 ---
 
