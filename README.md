@@ -1,57 +1,51 @@
-Here is the same README **fully written in proper README.md (Markdown) syntax** — just copy-paste into your GitHub README.md file:
-
----
-
-```md
 # Student Result Analysis
 
-This project provides a complete analysis of student performance across three key subjects: **Math**, **Reading**, and **Writing**.  
-It includes data cleaning, exploratory analysis, visualizations, insights, and automatically generated reports in PDF, DOCX, and PPTX formats.
+This project analyzes student performance across **Math**, **Reading**, and **Writing** using Python, Jupyter Notebook, and data visualizations.  
+It also includes automatically generated **PDF**, **DOCX**, and **PPTX** reports summarizing key insights.
 
 ---
 
 ## ⭐ Project Highlights
 
-### 📊 1. Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
 - Summary statistics for all subjects  
-- Distribution analysis to identify low and high performers  
-- Correlation checks between Math, Reading, and Writing  
-- Identification of subject-wise weaknesses (Math shows more low scores)
+- Distribution analysis of scores  
+- Correlation between Math, Reading, and Writing  
+- Identification of subject-wise weaknesses  
+- Conclusion: **Math has more low scores compared to Reading and Writing**
 
-### 📈 2. Data Visualizations
-- Boxplots comparing subject performance  
-- Histograms showing score distributions  
-- Trend and comparison charts  
-- Visual evidence of consistently weaker Math scores  
+### 📈 Data Visualizations
+- **Histograms**: Show the distribution of scores across different gender and ethnic groups.  
+- **Boxplots**: Identify outliers in student performance across subjects.  
+- **Pie Charts**: Display the proportion of ethnic groups represented in the dataset.  
+- **Heatmaps**: Compare student score relationships based on parental education and marital status. 
 
-### 📄 3. Generated Reports
-- **PDF report** summarizing the findings  
-- **DOCX report** for editable documentation  
-- **PPTX presentation** for quick insights  
-- **PDF export of PPT** for easy sharing  
-
-### 🧪 4. Jupyter Notebook Workflow
-- Complete workflow: data loading → cleaning → exploration → visualization 
-- Well-structured and reproducible  
+### 📄 Report Generation
+- Full analysis exported as:
+  - PDF report  
+  - DOCX report  
+  - PPTX presentation  
+  - PDF version of the PPT  
 
 ---
 
 ## 📂 Project Files
 
-| File Name | Description |
-|-----------|-------------|
-| `student_scores.csv` | Raw dataset containing student scores |
-| `student_result_analysis.ipynb` | Main Jupyter Notebook for analysis |
-| `Student Result Analysis.docx` | Detailed written report (editable) |
-| `Student Result Analysis.pdf` | Final analysis report in PDF format |
-| `Student-Result-Analysis.pptx` | Presentation summarizing findings |
-| `Student-Result-Analysis-ppt.pdf` | PDF version of the presentation |
+Below are the files included in this repository:
+
+- [`student_scores.csv`](student_scores.csv) — Raw dataset of student scores  
+- [`student_result_analysis.ipynb`](student_result_analysis.ipynb) — Jupyter Notebook for complete analysis  
+- [`Student Result Analysis.pdf`](Student%20Result%20Analysis.pdf) — PDF version of the report  
+- [`Student-Result-Analysis.pptx`](Student-Result-Analysis.pptx) — PowerPoint presentation  
+- [`Student-Result-Analysis-ppt.pdf`](Student-Result-Analysis-ppt.pdf) — PDF export of the presentation  
+
 
 ---
 
 ## 🚀 How to Use
-1. Clone this repository.  
-2. Open the Jupyter Notebook (`.ipynb`) for the full analysis workflow.  
-3. Check the generated **PDF**, **DOCX**, or **PPTX** files for summarized insights.  
-✅ screenshots section  
-```
+
+1. Clone or download this repository  
+2. Open **student_result_analysis.ipynb** in Jupyter Notebook  
+3. Run all cells to reproduce the analysis  
+4. View the final insights in the PDF/DOCX/PPTX reports  
+
