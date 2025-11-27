@@ -39,12 +39,3 @@ Below are the files included in this repository:
 - [`Student-Result-Analysis-ppt.pdf`](Student-Result-Analysis-ppt.pdf) — PDF export of the presentation  
 
 
----
-
-## 🚀 How to Use
-
-1. Clone or download this repository  
-2. Open **student_result_analysis.ipynb** in Jupyter Notebook  
-3. Run all cells to reproduce the analysis  
-4. View the final insights in the PDF/DOCX/PPTX reports  
-
